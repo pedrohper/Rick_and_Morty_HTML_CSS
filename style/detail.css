@@ -1,0 +1,119 @@
+.back-navigation {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn-back:hover {
+    opacity: 0.7;
+}
+
+.info-item.clickable a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: inherit;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.chevron {
+    font-size: 20px;
+    color: #9e9e9e;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.profile-header {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.avatar-container img {
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.details-content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.details-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #8E8E93;
+    font-family: Roboto;
+}
+
+.info-section, 
+.episodes-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.info-list, 
+.episodes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.episode-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.episode-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card h3, .label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card p, .value{
+    font-weight: 500;
+    font-size: 14px;
+}
+
