@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Locations - Steel Ball Run</title>
+    <title>Locations - Rick and Morty</title>
     <link rel="stylesheet" href="style/style.css" type="text/css" media="all" />
+    <link rel="icon" href="/assets/logo-black.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -22,12 +23,10 @@
     </header>
 
     <div class="container">
-        <!-- Hero Image -->
         <section class="hero">
             <img src="assets/logo.png" alt="Steel Ball Run Logo">
         </section>
 
-        <!-- Filtros de Locais -->
         <section class="filters">
             <div class="search">
                 <input type="text" placeholder="Filter by name...">
@@ -47,79 +46,8 @@
             </select>
         </section>
 
-        <!-- Galeria de Cards sem Imagem -->
-        <main class="card-galery location-galery">
-            <article class="card location-card">
-                <a href="#">
-                    <div class="card-content">
-                        <h3>San Diego Beach</h3>
-                        <p>Checkpoint</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card location-card">
-                <a href="#">
-                    <div class="card-content">
-                        <h3>Arizona Desert</h3>
-                        <p>Landmark</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card location-card">
-                <a href="#">
-                    <div class="card-content">
-                        <h3>Cannon City</h3>
-                        <p>City</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card location-card">
-                <a href="#">
-                    <div class="card-content">
-                        <h3>Kansas City</h3>
-                        <p>City</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card location-card">
-                <a href="#">
-                    <div class="card-content">
-                        <h3>Chicago</h3>
-                        <p>City</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card location-card">
-                <a href="#">
-                    <div class="card-content">
-                        <h3>Mackinaw City</h3>
-                        <p>Checkpoint</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card location-card">
-                <a href="#">
-                    <div class="card-content">
-                        <h3>Philadelphia</h3>
-                        <p>City</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card location-card">
-                <a href="#">
-                    <div class="card-content">
-                        <h3>New York City</h3>
-                        <p>Final Checkpoint</p>
-                    </div>
-                </a>
-            </article>
+        <main class="card-galery location-galery" id="card-galery">
+            
         </main>
 
         <section class="load-more">
@@ -130,5 +58,6 @@
     <footer>
         <p>Make with ❤️ for pedrohper</p>
     </footer>
+    <script src="locations.js"></script>
 </body>
 </html>

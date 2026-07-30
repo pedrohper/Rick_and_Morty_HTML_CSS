@@ -8,13 +8,12 @@
 }
 
 select {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    padding: 1rem;
+    padding: 0.75rem 1rem;
     border: 1px solid var(--border-color);
     border-radius: 4px;
     width: 30%;
+    background-color: var(--background-color);
+    outline: none;
 }
 
 .search {
@@ -24,6 +23,7 @@ select {
     padding: 0.75rem 1rem;
     border: 1px solid var(--border-color);
     border-radius: 4px;
+    width: 100%;
 }
 
 .search input {

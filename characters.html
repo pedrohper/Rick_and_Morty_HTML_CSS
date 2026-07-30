@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steel Ball Run</title>
+    <title>Rick and Morty</title>
     <link rel="stylesheet" href="style/style.css" type="text/css" media="all" />
+    <link rel="icon" href="/assets/logo-black.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -12,7 +13,6 @@
             <div class="logo">
                 <img src="assets/logo.png" alt="Steel Ball Run Logo">
             </div>
-
             <ul class="menu">
                 <li><a href="characters.html">Characters</a></li>
                 <li><a href="locations.html">Locations</a></li>
@@ -31,95 +31,27 @@
                 <input type="text" placeholder="Filter by name...">
             </div>
 
-            <select>
+            <select id="species-filter">
                 <option value="">Species</option>
                 <option value="human">Human</option>
+                <option value="human">Alien</option>
             </select>
 
-            <select>
+            <select id="gender-filter">
                 <option value="">Gender</option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
             </select>
 
-            <select>
+            <select id="status-filter">
                 <option value="">Status</option>
                 <option value="alive">Alive</option>
                 <option value="dead">Dead</option>
             </select>
         </section>
 
-        <main class="card-galery">
-            <article class="card">
-                <a href="jhonny.html">
-                    <div class="card-image-container">
-                        <img src="assets/jhonny.png" alt="Johnny Joestar">
-                    </div>
-                    <div class="card-content">
-                        <h3>Johnny Joestar</h3>
-                        <p>Spin User</p>
-                    </div>
-                </a>
-            </article>
+        <main class="card-galery" id="card-galery">
 
-            <article class="card">
-                <a href="#">
-                    <div class="card-image-container">
-                        <img src="assets/gyro.png" alt="Gyro Zeppeli">
-                    </div>
-                    <div class="card-content">
-                        <h3>Gyro Zeppeli</h3>
-                        <p>Spin User</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card">
-                <a href="#">
-                    <div class="card-image-container">
-                        <img src="assets/diego.png" alt="Diego Brando">
-                    </div>
-                    <div class="card-content">
-                        <h3>Diego Brando</h3>
-                        <p>Stand User</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card">
-                <a href="#">
-                    <div class="card-image-container">
-                        <img src="assets/avdol.png" alt="Urmd Avdol">
-                    </div>
-                    <div class="card-content">
-                        <h3>Urmd Avdol</h3>
-                        <p>Human</p>
-                    </div>
-                </a>
-            </article>
-
-            <article class="card">
-                <a href="#">
-                    <div class="card-image-container">
-                        <img src="assets/sandman.png" alt="Sandman">
-                    </div>
-                    <div class="card-content">
-                        <h3>Sandman</h3>
-                        <p>Stand User</p>
-                    </div>
-                </a>
-            </article>
-            <article class="card">
-                <a href="#">
-                    <div class="card-image-container">
-                        <img src="assets/pocoloco.png" alt="Pocoloco">
-                    </div>
-                    <div class="card-content">
-                        <h3>Pocoloco</h3>
-                        <p>Stand User</p>
-                    </div>
-                </a>
-            </article>
         </main>
 
         <section class="load-more">
@@ -130,5 +62,6 @@
     <footer>
         <p>Make with ❤️ for pedrohper</p>
     </footer>
+    <script src="characters.js"></script>
 </body>
 </html>

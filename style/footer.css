@@ -3,5 +3,5 @@ footer {
     padding: 20px;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid var(--border-color)
+    border-top: 1px solid var(--border-color);
 }
