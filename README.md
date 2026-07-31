@@ -21,11 +21,10 @@ Aplicação web desenvolvida em JavaScript Vanilla para exploração do universo
 ## 📂 Estrutura do Projeto
 
 ```text
-rick-and-morty-wiki/
+Rick_and_Morty/
 ├── assets/         # Imagens e logos
-├── css/            # Arquivos de estilização (global, galeria, detalhes)
-├── js/             # Scripts e lógica das páginas
-├── index.html      # Home
-├── characters.html # Listagem de personagens
-├── locations.html  # Listagem de localizações
-└── episodes.html   # Listagem de episódios
+├── js/             # Scripts e lógica das páginas por módulo
+├── pages/          # Páginas HTML (characters, locations, episodes, detalhes)
+├── styles/         # Arquivos CSS (global, galeria, detalhes)
+├── index.html      # Página principal
+└── README.md       # Documentação do projeto
