@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Location Details - Rick and Morty</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <link rel="icon" href="assets/logo-black.png" type="image/x-icon">
+    <title>Episode Details - Rick and Morty</title>
+    <link rel="stylesheet" href="../styles/global.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../styles/detail.css" type="text/css" media="all" />
+    <link rel="icon" href="../assets/logo-black.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="assets/logo.png" alt="Rick and Morty Logo">
+                <img src="../assets/logo.png" alt="Rick and Morty Logo">
             </div>
             <ul class="menu">
                 <li><a href="characters.html">Characters</a></li>
@@ -23,14 +24,14 @@
 
     <div class="container">
         <div class="back-navigation">
-            <a href="locations.html" class="btn-back">
+            <a href="episodes.html" class="btn-back">
                 <span class="arrow">&larr;</span> VOLTAR
             </a>
         </div>
 
         <section class="profile-header">
-            <h1 id="location-name">-</h1>
-            <p id="location-type" class="subtitle">-</p>
+            <h1 id="episode-name">-</h1>
+            <p id="episode-code" class="subtitle">-</p>
         </section>
 
         <main class="details-content">
@@ -38,19 +39,19 @@
                 <h2>Informations</h2>
                 <ul class="info-list">
                     <li class="info-item">
-                        <span class="label">Type</span>
-                        <span class="value" id="type">-</span>
+                        <span class="label">Episode</span>
+                        <span class="value" id="code-val">-</span>
                     </li>
                     <li class="info-item">
-                        <span class="label">Dimension</span>
-                        <span class="value" id="dimension">-</span>
+                        <span class="label">Air Date</span>
+                        <span class="value" id="air-date">-</span>
                     </li>
                 </ul>
             </section>
 
-            <section class="residents-section">
-                <h2>Residents</h2>
-                <div class="card-galery" id="residents-gallery"></div>
+            <section class="characters-section">
+                <h2>Characters in this episode</h2>
+                <div class="card-galery" id="characters-gallery"></div>
             </section>
         </main>
     </div>
@@ -59,6 +60,6 @@
         <p>Make with ❤️ for pedrohper</p>
     </footer>
 
-    <script src="js/location-detail.js"></script>
+    <script src="../js/episodes/detail.js"></script>
 </body>
 </html>
