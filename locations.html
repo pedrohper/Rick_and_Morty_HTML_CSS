@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Locations - Rick and Morty</title>
-    <link rel="stylesheet" href="style/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <link rel="icon" href="/assets/logo-black.png" type="image/x-icon">
 </head>
 <body>
@@ -32,17 +32,19 @@
                 <input type="text" placeholder="Filter by name...">
             </div>
 
-            <select>
+            <select id="type-filter">
                 <option value="">Type</option>
-                <option value="checkpoint">Checkpoint</option>
-                <option value="city">City</option>
-                <option value="landmark">Landmark</option>
+                <option value="Planet">Planet</option>
+                <option value="Cluster">Cluster</option>
+                <option value="Space station">Space station</option>
+                <option value="Microverse">Microverse</option>
             </select>
 
-            <select>
+            <select id="dimension-filter">
                 <option value="">Dimension</option>
-                <option value="base">Base Universe</option>
-                <option value="parallel">Parallel World</option>
+                <option value="Dimension C-137">Dimension C-137</option>
+                <option value="Post-Apocalyptic Dimension">Post-Apocalyptic</option>
+                <option value="Replacement Dimension">Replacement Dimension</option>
             </select>
         </section>
 
@@ -58,6 +60,6 @@
     <footer>
         <p>Make with ❤️ for pedrohper</p>
     </footer>
-    <script src="locations.js"></script>
+    <script src="js/locations.js"></script>
 </body>
 </html>

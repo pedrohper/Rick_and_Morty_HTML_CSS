@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Details - Rick and Morty</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="icon" href="assets/logo-black.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.png" alt="Rick and Morty Logo">
+            </div>
+            <ul class="menu">
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="episodes.html">Episodes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="back-navigation">
+            <a href="characters.html" class="btn-back">
+                <span class="arrow">&larr;</span> VOLTAR
+            </a>
+        </div>
+
+        <section class="profile-header">
+            <div class="avatar-container">
+                <img src="" alt="Avatar">
+            </div>
+            <h1>-</h1>
+        </section>
+
+        <main class="details-content">
+            <section class="info-section">
+                <h2>Informations</h2>
+                
+                <ul class="info-list">
+                    <li class="info-item">
+                        <span class="label">Gender</span>
+                        <span class="value" id="gender">-</span>
+                    </li>
+                    <li class="info-item">
+                        <span class="label">Status</span>
+                        <span class="value" id="status">-</span>
+                    </li>
+                    <li class="info-item">
+                        <span class="label">Specie</span>
+                        <span class="value" id="species">-</span>
+                    </li>
+                    <li class="info-item">
+                        <span class="label">Origin</span>
+                        <span class="value" id="origin">-</span>
+                    </li>
+                    <li class="info-item">
+                        <span class="label">Type</span>
+                        <span class="value" id="type">-</span>
+                    </li>
+                    <li class="info-item clickable">
+                        <a id="location-link" href="#">
+                            <div class="info-text">
+                                <span class="label">Location</span>
+                                <span class="value" id="location">-</span>
+                            </div>
+                            <span class="chevron">&rsaquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="episodes-section">
+                <h2>Episodes</h2>
+                <ul class="episodes-list"></ul>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>Make with ❤️ for pedrohper</p>
+    </footer>
+
+    <script src="js/character-detail.js"></script>
+</body>
+</html>
