@@ -147,7 +147,7 @@ footer {
 
 .container {
     position: relative;
-    max-width: 1140px; /* Era 1024px */
+    max-width: 1140px;
     margin: 0 auto;
     align-items: center;
     display: flex;
